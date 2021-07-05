@@ -1,0 +1,225 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    background-color: dimgray;
+    top: 0;
+    position: sticky;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+}
+.navbar ul li
+{
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 8px 25px;
+    transition: all .5s ease;
+    font-size: 20px;
+}
+.navbar ul li a:hover
+{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 13px antiquewhite;
+    font-size: 20px;
+}
+#Home
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 898px;
+    justify-items: center;
+    align-items: center;
+    color: antiquewhite;
+}
+#Home::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("background 1.png") no-repeat center center/cover;
+    height: 960px;
+    width: 100%;
+    z-index: -2;
+    opacity: .7;
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+.naslov
+{
+    color: antiquewhite;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    margin: 40px 0;
+    position: static;
+
+}
+.button1
+{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 40px;
+    font-size: medium;
+    background-color: transparent;
+    color: antiquewhite;
+    outline: none;
+    transition: .5s ease;
+}
+.button1 a:link, .button1 a:visited, .button1 a:active
+{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 40px;
+    font-size: medium;
+    background-color: transparent;
+    color: antiquewhite;
+    outline: none;
+    transition: .5s ease;
+}
+.button1:hover
+{
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px antiquewhite, 0 0 5px antiquewhite, 0 0 10px antiquewhite;
+    padding: 15px 40px;
+    outline: none;
+    transition: .5s ease;
+}
+
+#AboutMe
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 951px;
+    color: antiquewhite;
+}
+#AboutMe::before
+{
+    content:"";
+    position: absolute;
+    top: 960px;
+    background: url("slice.jpg") no-repeat center center/cover;
+    height: 970px;
+    width: 100%;
+    z-index: -2;
+    opacity: .7;
+}
+
+#pic
+{
+    display: flex;
+}
+#pic
+{
+    width: 575px;
+    height: 400px;
+}
+#about
+{
+    margin-left: 8%;
+    margin-top: 10%;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+
+    width: 30%;
+    left: 10%;
+    top: 35%;
+}
+#about h1
+{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#skills
+{
+    text-align: center;
+    align-items: center;
+    background: url("background 2.png") no-repeat center center/cover;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 960px;
+}
+.skillsbox
+{
+    margin: 1%;
+    color: transparent;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    border: 2px solid darkgrey;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 11px;
+    background: linear-gradient(to top, lightskyblue 50%, #858fa2 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.skillsbox:hover
+{
+    color: antiquewhite;
+    background-position: left bottom;
+}
+.row
+{
+    display:flex;
+}
+#Contact
+{
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    background: url("background 2.png") no-repeat center center/cover;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 960px;
+}
+input
+{
+    width: 500px;
+}
+textarea
+{
+    width: 500px;
+}
+
